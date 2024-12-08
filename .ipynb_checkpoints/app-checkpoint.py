@@ -12,7 +12,7 @@ st.header('Chess Classification CNN Model')
 chess_names = ['Bishop', 'King', 'Knight', 'Pawn', 'Queen', 'Rook']
 
 # Memuat model yang telah disimpan
-model = load_model('Chess_Recog_Model.h5')
+model = load_model('Chess_Recog_Model.keras')
 
 # Fungsi untuk mengklasifikasikan gambar
 def classify_images(image_path):
